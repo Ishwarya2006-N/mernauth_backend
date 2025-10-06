@@ -1,7 +1,7 @@
 //authController.js
 import bcrypt from 'bcryptjs'
 import jwt from 'jsonwebtoken';
-import userModel from '../model/userModel.js';
+import userModel from '../model/usermodel.js';
 import transporter from '../config/nodeMailer.js';
 import { EMAIL_VERIFY_TEMPLATE,PASSWORD_RESET_TEMPLATE } from '../config/emailTemplate.js';
 
